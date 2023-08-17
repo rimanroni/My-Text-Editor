@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
+</head>
+<body>
+    
+    <div class="bg-sky-400 w-3/4 mx-auto mt-4 p-4">
+       <h1 class="text-4xl text-center">MY Text Editor</h1>
+       <div class="bg-sky-200 p-8 mt-8 border-2  border-black">
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-3 justify-between mt-8 border-b-2 pb-4 border-black">
+
+            <div class="space-x-4">
+                <button id="f-1"><i class="fa-solid fa-b  "></i></button>
+                <button id="f-2"><i class="fa-solid fa-italic"></i></button>
+                <button id="f-3"><i class="fa-solid fa-underline"></i></button>
+            </div>
+            <div class="space-x-4">
+                <button id="a-1"><i class="fa-solid fa-align-left"></i></button>
+                <button id="a-2"><i class="fa-solid fa-align-center"></i></button>
+                <button id="a-3"><i class="fa-solid fa-align-right"></i></button>
+                <button id="a-4"><i class="fa-solid fa-align-justify"></i></button>
+            </div>
+            <div class="space-x-4">
+                <input type="number" name="" value="16" class="w-16 roni" id="font-size" >
+                <button>aA</button>
+                <input type="color" name="" id="colorinput">
+            </div>
+           </div>
+      
+         <textarea name="" id="inputText" cols="" rows="" class="mt-2 w-full h-[200px] resize-none px-4 pt-4"  ></textarea>
+      
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
